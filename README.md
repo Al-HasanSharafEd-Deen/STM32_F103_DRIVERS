@@ -13,6 +13,7 @@ In this folder you will find peripherals' drivers implementation.
 ## HAL
 ### Hardware Abstraction Layer
 In this folder you will find HW components' drivers implementation.
+
 not ready yet.
 
 ## LIB
