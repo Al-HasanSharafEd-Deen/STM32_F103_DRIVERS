@@ -178,13 +178,13 @@ uint8_t RCC_u8HSEConfig(HSE_DIVIDE_t Copy_HSEDivide, HSE_PYPASS_t Copy_HSEBypass
 
 	/*Set Divide configuration*/
 	/*Check if HSE Divided by 1 -Not Divided-*/
-	if(Copy_u8HSEDivide == HSE_DIVIDED_1)
+	if(Copy_HSEDivide == HSE_DIVIDED_1)
 	{
 		/*Make PLLXTPRE BIT = 0*/
 		CLRBIT(RCC->CFGR,CFGR_PLLXTPRE);
 	}
 	/*Check if HSE Divided by 2*/
-	else if(Copy_u8HSEDivide == HSE_DIVIDED_2)
+	else if(Copy_HSEDivide == HSE_DIVIDED_2)
 	{
 		/*Make PLLXTPRE BIT = 1*/
 		SETBIT(RCC->CFGR,CFGR_PLLXTPRE);
