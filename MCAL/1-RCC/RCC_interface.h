@@ -46,9 +46,6 @@ typedef enum{
 }PERIPH_STATE_t;
 /*******************************************************************************************************/
 
-/*Point to RCC base Address*/
-RCC_Reg_t RCC = (RCC_Reg_t)(RCC_BASEADD);
-
 /*RCC Set Clock Status Function*
  * Brief: by this function we can set the RCC clock Source status (ON or OFF)*
  * input:  Copy_RCCState ( RCC_ON,

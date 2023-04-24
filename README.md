@@ -2,7 +2,7 @@
 This is my implementation to STM32-F103 Microcontroller -pased on ARM Cortex M3- peripherals and some important HW components Drivers.
 I wrote and organized it using Layerd Architecture.
 
----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 **You will see three folders as follows:**
 ## MCAL
@@ -20,6 +20,6 @@ not ready yet.
 ### Library
 In this folder you will find importants functions and macros.
 
----------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
 
 **Thank you for Reading this**
